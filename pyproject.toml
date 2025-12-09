@@ -23,7 +23,7 @@ dev = [
 ]
 
 [project.scripts]
-theo-review = "theological_review.cli:app"
+agentTheo = "theological_review.cli:app"
 
 [build-system]
 requires = ["hatchling"]

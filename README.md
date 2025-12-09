@@ -181,7 +181,7 @@ Now you're ready to review articles! Make sure your terminal is still open with 
 If you have your blog post saved as a file (like `my-article.md` or `my-article.txt`):
 
 ```bash
-theo-review review ./my-article.md
+agentTheo review ./my-article.md
 ```
 
 The tool will read your article and show you the review right in the terminal!
@@ -191,7 +191,7 @@ The tool will read your article and show you the review right in the terminal!
 If the article is already published online:
 
 ```bash
-theo-review review https://example.com/blog/my-post
+agentTheo review https://example.com/blog/my-post
 ```
 
 ### Save the review to a file
@@ -199,7 +199,7 @@ theo-review review https://example.com/blog/my-post
 To save the review so you can read it later:
 
 ```bash
-theo-review review ./my-article.md -o review.md
+agentTheo review ./my-article.md -o review.md
 ```
 
 This creates a file called `review.md` with the full review that you can open in any text editor.
@@ -208,17 +208,17 @@ This creates a file called `review.md` with the full review that you can open in
 
 **Check a single theological claim:**
 ```bash
-theo-review check "The Eucharist is the real presence of Christ"
+agentTheo check "The Eucharist is the real presence of Christ"
 ```
 
 **Look up a Catechism paragraph:**
 ```bash
-theo-review catechism 1374
+agentTheo catechism 1374
 ```
 
 **Search for a topic:**
 ```bash
-theo-review search "transubstantiation"
+agentTheo search "transubstantiation"
 ```
 
 ---
@@ -272,7 +272,7 @@ You don't have to do all the setup steps again! Just:
 3. Activate the virtual environment:
    - Windows: `venv\Scripts\activate`
    - Mac/Linux: `source venv/bin/activate`
-4. Run your command: `theo-review review ./my-article.md`
+4. Run your command: `agentTheo review ./my-article.md`
 
 ---
 
